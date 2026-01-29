@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'  // Import Routes and Route
-import Home from './home'  // Adjust paths to your components
+import Home from '../src/Home'
 import Shop from './pages/shop'
 import AboutUs from './pages/aboutus'
 import Footer from './components/footer'  // From your previous conversion
