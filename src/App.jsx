@@ -1,14 +1,14 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'  // Import Routes and Route
-import Home from '../src/Home'
+import Home from './home'
 import Shop from './pages/shop'
-import AboutUs from './pages/aboutus'
 import Footer from './components/footer'  // From your previous conversion
 import Menu from './components/nav'  
 import Blog from './pages/blog'
 import ArticlePage from './pages/article'
 import FamilyDoc from './pages/familydoc'
 import ErrorPage from './pages/404'
+import AboutUs from './pages/aboutus'
 
 function App() {
   return (
